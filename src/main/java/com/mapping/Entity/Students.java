@@ -51,6 +51,11 @@ public class Students {
 	public void setDocuments(Documents documents) {
 		this.documents = documents;
 	}
+
+	@Override
+	public String toString() {
+		return "Students [id=" + id + ", fName=" + fName + ", lName=" + lName + ", documents=" + documents + "]";
+	}
 	
 	
 	

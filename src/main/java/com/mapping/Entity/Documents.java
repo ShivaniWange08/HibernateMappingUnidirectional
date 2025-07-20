@@ -38,6 +38,12 @@ public class Documents {
 	public void setPanNo(String panNo) {
 		this.panNo = panNo;
 	}
+
+	@Override
+	public String toString() {
+		return "Documents [docId=" + docId + ", aadharNo=" + aadharNo + ", panNo=" + panNo + "]";
+	}
+	
 	
 	
 }

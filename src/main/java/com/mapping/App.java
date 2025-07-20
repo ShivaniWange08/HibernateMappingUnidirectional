@@ -21,11 +21,11 @@ public class App
 		Transaction transaction = session.beginTransaction();
 
 		Documents documents = new Documents();
-		documents.setAadharNo(27792247);
-		documents.setPanNo("Ak2027");
+		documents.setAadharNo(2732945);
+		documents.setPanNo("Ck2630");
 		
 		Students students = new Students(); 
-		students.setfName("Shivani");
+		students.setfName("Om");
 		students.setlName("Wange");
 		students.setDocuments(documents);
 		
